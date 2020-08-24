@@ -1,0 +1,45 @@
+
+body{
+	background: #96d1e3;
+    text-align: center;
+}
+
+/* classes */
+.option{
+    margin-left: 15px;
+    align-content: center;
+}
+
+.start {margin: 25px;}
+
+.container {max-width: 800px;}
+
+.hide {display: none;}
+
+.jumbotron {
+    padding: 1em;
+    background-color: #3f857e;
+    color: whitesmoke;
+    font-weight: 600;
+    border: solid, black;
+    border-width: 12px;
+}
+
+.header {
+    font-weight: 600;
+    color: rgb(44, 94, 89);
+}
+
+/* ID's */
+#enterName{
+    background-color: #96d1e3;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#restart {
+    background-color: green;
+    margin-right: 1em;
+}
+
+#clear {background-color: #96d1e3;}

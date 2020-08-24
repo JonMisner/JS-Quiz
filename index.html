@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="JS Trivia Game" content="A Trivia Game with Java Script themed questions"/>
+        
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/style.css">
+
+    <title>JS Trivia</title>
+
+</head>
+
+
+<body>
+<!-- Main Title -->
+    <div class="container">
+        <div class="header text-center clearfix">
+          <h1 class="header">Jon's Java Script Trivia</h1>
+        </div>
+<!-- Container for questions and options -->
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container">
+            <h1 class="time"></h1>
+          <div id="game">
+            <div class="input-group mb-3" id="main">
+              <input type="text" class="form-control" id = "enterName" placeholder="Enter Name"> 
+            </div>
+            <p id="question" class="lead"></p>
+          </div>
+          <div id="results">
+          </div>
+        </div>
+<!-- Buttons -->
+        <div class="row">
+          <div class="col -4">
+            <div id="choices" class="text-center">
+            <button id="button1" class="btn btn-info btn-lg">Start Game</button>
+            <button id="button2" class="btn btn-info btn-lg hide"></button>
+            <button id="button3" class="btn btn-info btn-lg hide"></button>
+            <button id="button4" class="btn btn-info btn-lg hide"></button>
+            <button id="restart" class="hide btn-lg"></button>
+            <button id="clear" class="hide btn-lg"></button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="assets/timer.js"></script>
+    <script src="assets/logic.js"></script>
+
+</body>
+
+</html>
